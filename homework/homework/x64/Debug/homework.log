@@ -1,2 +1,6 @@
 ﻿  main.cpp
-  homework.vcxproj -> G:\Codes\Nonlinear_equation\homework\x64\Debug\homework.exe
+  my_math.cpp
+  正在生成代码...
+D:\Codes\Nonlinear_equation\homework\homework\my_math.cpp(33): warning C4715: “my_dichotomy”: 不是所有的控件路径都返回值
+  LINK : 没有找到 D:\Codes\Nonlinear_equation\homework\x64\Debug\homework.exe 或上一个增量链接没有生成它；正在执行完全链接
+  homework.vcxproj -> D:\Codes\Nonlinear_equation\homework\x64\Debug\homework.exe

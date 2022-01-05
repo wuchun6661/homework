@@ -4,23 +4,24 @@
 #include <cstdio>
 #include <cmath>
 
-/********参数详解************
+/********Options参数详解************
     a                   左区间
     b                   右区间
     x0                 x的初始值
     error_limit    误差限  
     cycle_limit    最大循环次数
     h                   求导时的步长
+    show()          参数显示
 ******************************/
 class Options {
-    public:
-        double a = 0, b = 1;
-        double x0 = 0;
-        double error_limit = 0.000000001;
-        double h = 0.0000001;
-        int cycle_limit = 1000;
+public:
+    double a = 0, b = 1;
+    double x0 = 0;
+    double error_limit = 0.000000001;
+    double h = 0.0000001;
+    int cycle_limit = 1000;
 
-        void show();
+    void show();
 };
 
 typedef double (*func_p)(double x);//定义原函数指针 类型
